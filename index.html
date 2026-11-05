@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Neelaksh Harnwal</title>
+<style>img, video { max-width: 100%; height: auto; }</style>
+</head>
+<body>
+
+<img src="media/headshot.png" width="160" alt="Photo of Neelaksh Harnwal">
+<h1>Neelaksh Harnwal</h1>
+<p>
+<i>Undergraduate, Computer Science and Engineering, UC San Diego</i><br>
+San Diego, CA<br>
+Email: <a href="mailto:neelaksh.harnwal@gmail.com">neelaksh.harnwal@gmail.com</a><br>
+<a href="http://www.linkedin.com/in/neel-neelaksh-harnwal">LinkedIn</a> |
+<a href="https://github.com/harnwalN">GitHub</a> |
+<a href="https://youtu.be/Ti61-_9ZAYA">Engineering Portfolio</a>
+</p>
+
+<hr>
+
+<h2>About</h2>
+<p>
+I am a computer science student at UC San Diego focused on <b>machine learning and computer vision</b>.
+For two and a half years I was a Machine Learning Research Associate at the Melkani Lab
+(University of Alabama at Birmingham). There I built Attention U-Net segmentation models for cardiac
+imaging and co-authored a <i>Scientific Reports</i> paper on computer-vision tracking. I have also
+put real-time object detection on competition robots as software lead of FIRST Robotics Competition Team 6328
+&ldquo;Mechanical Advantage,&rdquo; and built indoor navigation on a local vision-language model.
+I also interned at Johnson &amp; Johnson.
+</p>
+<p>Engineering portfolio:</p>
+<a href="https://www.youtube.com/watch?v=Ti61-_9ZAYA"><img src="https://img.youtube.com/vi/Ti61-_9ZAYA/maxresdefault.jpg" width="560" alt="Engineering Portfolio (YouTube video)"></a><br>
+<small>&#9654; Watch on YouTube: <a href="https://www.youtube.com/watch?v=Ti61-_9ZAYA">Engineering Portfolio</a></small>
+
+<h2>Machine Learning &amp; Computer Vision</h2>
+<p>Selected work. Details are in Research Experience and Publications below.</p>
+
+<h3>1. Deep learning segmentation of cardiac imaging</h3>
+<p><i>Melkani Lab, University of Alabama at Birmingham &middot; 2023&ndash;2026</i></p>
+<ul>
+<li>Developed <b>Attention U-Net</b> deep learning models for automated segmentation of <i>Drosophila</i> cardiac imaging</li>
+</ul>
+
+<h3>2. Computer-vision tracking for an automated locomotor assay</h3>
+<p><i>Melkani Lab &middot; published in <a href="https://doi.org/10.1038/s41598-026-72974-1"><i>Scientific Reports</i>, 2026</a></i></p>
+<ul>
+<li>Co-developed the fly-tracking algorithm that follows individual flies across video frames in a geotaxis (climbing) assay</li>
+<li>Built the analysis software with Heersink School of Medicine biologists, automating analysis of <b>200,000+ frames</b></li>
+<li>Code: <a href="https://github.com/harnwalN/Melkani-Lab-Fly-Tracking">Melkani-Lab-Fly-Tracking</a> (early fly-linking notebooks)</li>
+</ul>
+<p><img src="media/geotaxis-app.jpg" width="640" alt="Geotaxis Analysis App screenshot"><br>
+<small>The Geotaxis Analysis App, used for the automated <i>Drosophila</i> geotaxis assay.</small></p>
+
+<h3>3. Real-time object detection on a competition robot</h3>
+<p><i>FRC Team 6328 &ldquo;Mechanical Advantage&rdquo; &middot; Software Lead, 2025&ndash;2026</i></p>
+<ul>
+<li>Integrated a Mac Mini coprocessor running onboard <b>object detection</b> of game pieces</li>
+<li>Localized detected game pieces on the field (video below)</li>
+</ul>
+<p><img src="media/fuel-detection.jpg" width="480" alt="Object detection on game pieces"><br>
+<small>Onboard object detection on game pieces (fuel).</small></p>
+<p><video src="media/fuel-localization.mp4" width="480" controls muted playsinline></video><br>
+<small>Fuel localization from object detection.</small></p>
+
+<h3>4. Waypoint: indoor navigation from walkthrough videos</h3>
+<p><i>Team project (4 people), Hacktoberfest, Fall 2026 &middot;
+<a href="https://github.com/harnwalN/hacktoberfest-indoor-navigation">GitHub</a></i></p>
+<ul>
+<li>Turns phone videos of walks through a building into a multi-floor navigation map with photo-and-arrow directions</li>
+<li>A <b>vision-language model</b> (Gemma 3, running locally and offline) reads door plaques and signs and returns structured JSON. On-device OCR checks each word it reports, which stops small-model hallucinations.</li>
+<li>Classical computer vision (Lucas&ndash;Kanade optical flow, ORB features, RANSAC, homographies) recovers turns and links separate videos into one map with loop closure</li>
+</ul>
+<p><img src="media/waypoint-map.jpg" width="640" alt="Waypoint building map generated from walkthrough videos"><br>
+<small>A floor map Waypoint built automatically from walkthrough videos.</small></p>
+
+<h2>Education</h2>
+<ul>
+<li><b>University of California San Diego</b>, B.S. in Computer Science (expected 2030)<br>
+Coursework: Computer Vision (CSE 152A), Computational Problem Solving (CSE 11), Putnam Seminar (MATH 96)</li>
+<li><b>Acton-Boxborough Regional High School</b>, 2026<br>
+GPA 3.98/4.0; SAT 1560/1600; National Merit Scholarship Semifinalist</li>
+</ul>
+
+<h2>Research Experience</h2>
+<p><b>Melkani Lab, University of Alabama at Birmingham</b>, Machine Learning Research Associate (Jun 2023 &ndash; Jan 2026)</p>
+<ul>
+<li>Developed Attention U-Net deep learning models for automated segmentation of <i>Drosophila</i> cardiac imaging</li>
+<li>Co-authored the <i>Scientific Reports</i> paper above on a fly-tracking algorithm and automated <i>Drosophila</i> geotaxis workflow</li>
+<li>Built 2 software applications with Heersink School of Medicine biologists, automating analysis of 200,000+ frames</li>
+</ul>
+
+<h2>Publications</h2>
+<ol>
+<li>D. Melkani, <b>N. Harnwal</b>, S. Desai, D. Patel, and G. C. Melkani.
+&ldquo;Design and implementation of an automated <i>Drosophila</i> locomotor assay using
+computer vision tracking.&rdquo; <i>Scientific Reports</i>, 2026.
+<a href="https://doi.org/10.1038/s41598-026-72974-1">doi:10.1038/s41598-026-72974-1</a></li>
+</ol>
+
+<h2>Talks</h2>
+<p>FIRST World Championship Conferences, George R. Brown Convention Center, Houston, TX
+(400+ live audience, 14K views):</p>
+<ul>
+<li>&ldquo;Data Logging and Visualization&rdquo;:
+<a href="https://www.youtube.com/watch?v=ZMxTRgryrvE">2025</a>,
+<a href="https://youtu.be/buXa1xXWU_U">2024</a></li>
+<li>&ldquo;Log Replay and Simulation&rdquo;:
+<a href="https://youtu.be/8FfwFQcvRmU">2025</a>,
+<a href="https://youtu.be/BrzPw6ngx4o">2024</a></li>
+</ul>
+<p><b>Data Logging and Visualization (2025):</b><br>
+<a href="https://www.youtube.com/watch?v=ZMxTRgryrvE"><img src="https://img.youtube.com/vi/ZMxTRgryrvE/maxresdefault.jpg" width="560" alt="Data Logging and Visualization (2025) (YouTube video)"></a><br>
+<small>&#9654; Watch on YouTube: <a href="https://www.youtube.com/watch?v=ZMxTRgryrvE">Data Logging and Visualization (2025)</a></small></p>
+<p><b>Log Replay and Simulation (2025):</b><br>
+<a href="https://www.youtube.com/watch?v=8FfwFQcvRmU"><img src="https://img.youtube.com/vi/8FfwFQcvRmU/maxresdefault.jpg" width="560" alt="Log Replay and Simulation (2025) (YouTube video)"></a><br>
+<small>&#9654; Watch on YouTube: <a href="https://www.youtube.com/watch?v=8FfwFQcvRmU">Log Replay and Simulation (2025)</a></small></p>
+<p><b>2024 versions:</b><br>
+<a href="https://www.youtube.com/watch?v=buXa1xXWU_U"><img src="https://img.youtube.com/vi/buXa1xXWU_U/maxresdefault.jpg" width="300" alt="Data Logging and Visualization (2024) (YouTube video)"></a>
+<a href="https://www.youtube.com/watch?v=BrzPw6ngx4o"><img src="https://img.youtube.com/vi/BrzPw6ngx4o/maxresdefault.jpg" width="300" alt="Log Replay and Simulation (2024) (YouTube video)"></a></p>
+<p><video src="media/advantagescope-ar.mp4" width="260" controls muted loop playsinline></video><br>
+<small>Clip from the AdvantageScope presentation: a robot log visualized in augmented reality.</small></p>
+<p>Robotics Network guest appearances (20K views):</p>
+<ul>
+<li><a href="https://youtu.be/4OyVJQ_k_gw">AlphaBot Prototyping</a></li>
+<li><a href="https://youtu.be/jllZwNmqcjo">Drum Shooter &amp; Demo</a></li>
+<li><a href="https://youtu.be/-mxl5Mrm7RQ">Behind the Bumpers</a></li>
+</ul>
+<p>
+<a href="https://www.youtube.com/watch?v=4OyVJQ_k_gw"><img src="https://img.youtube.com/vi/4OyVJQ_k_gw/maxresdefault.jpg" width="300" alt="AlphaBot Prototyping (YouTube video)"></a>
+<a href="https://www.youtube.com/watch?v=jllZwNmqcjo"><img src="https://img.youtube.com/vi/jllZwNmqcjo/maxresdefault.jpg" width="300" alt="Drum Shooter &amp; Demo (YouTube video)"></a>
+<a href="https://www.youtube.com/watch?v=-mxl5Mrm7RQ"><img src="https://img.youtube.com/vi/-mxl5Mrm7RQ/maxresdefault.jpg" width="300" alt="Behind the Bumpers (YouTube video)"></a><br>
+<small>&#9654; Click a thumbnail to watch on YouTube.</small></p>
+
+<h2>Technical Writing</h2>
+<p>Posts on Team 6328's Chief Delphi build thread, the most-viewed FRC build blog in the world
+(500K cumulative views):</p>
+<ol>
+<li><a href="https://www.chiefdelphi.com/t/frc-6328-mechanical-advantage-2026-build-thread/509595/272">Turret Control</a></li>
+<li><a href="https://www.chiefdelphi.com/t/frc-6328-mechanical-advantage-2024-build-thread/442736/328">Automatic Routines + Decisions</a></li>
+<li><a href="https://www.chiefdelphi.com/t/frc-6328-mechanical-advantage-2024-build-thread/442736/236">Trajectory Generation</a></li>
+<li><a href="https://www.chiefdelphi.com/t/frc-6328-mechanical-advantage-2024-build-thread/442736/179">Auto-Planning</a></li>
+<li><a href="https://www.chiefdelphi.com/t/frc-6328-mechanical-advantage-2024-build-thread/442736/228">Programming KitBot</a></li>
+<li><a href="https://www.chiefdelphi.com/t/frc-6328-mechanical-advantage-2026-build-thread/509595/192">AprilTag-Relative Constants</a></li>
+<li><a href="https://www.chiefdelphi.com/t/frc-6328-mechanical-advantage-2025-build-thread/477314/68">Field Mapping</a></li>
+<li><a href="https://www.chiefdelphi.com/t/frc-6328-mechanical-advantage-2024-build-thread/442736/297">Impact &amp; Outreach</a></li>
+</ol>
+
+<h2>Industry Experience</h2>
+<p><b>Johnson &amp; Johnson</b>, Operations Strategy Intern (Jul 2026 &ndash; Sep 2026; returning as part-time employee)</p>
+<ul>
+<li>Led pilot of MedTech Heart Recovery's first warehouse autonomous mobile robot program; earned $100K support</li>
+<li>Built an inventory management application as sole developer for non-GMP materials, expediting a million-dollar relocation</li>
+<li>Applied percentile analysis and MILP to office seating, informing a $100K office-space decision</li>
+<li>Streamlined injury reporting with a standardized form and Excel dashboard for data-driven response</li>
+</ul>
+
+<h2>Leadership Experience</h2>
+<p><b>FIRST Robotics Competition Team 6328 &ldquo;Mechanical Advantage,&rdquo;</b> Littleton Robotics (2021 &ndash; 2026)<br>
+3&times; World Championship Semifinalists (final 32 of 3,500+ teams)</p>
+<p><img src="media/frc-match.jpg" width="640" alt="Team 6328 robot on the field"></p>
+<p><i>Software Lead</i> (2025 &ndash; 2026)</p>
+<ul>
+<li>Integrated a Mac Mini coprocessor and onboard object detection; ran state-machine subsystem control</li>
+<li>Specialized in trajectory generation &amp; optimization and model predictive control maneuvering</li>
+<li>Led a software team of 8: repository tasks, season goals, and training curriculum</li>
+</ul>
+<p><img src="media/darwin.gif" width="320" alt="Darwin, Team 6328's robot, rotating"><br>
+<small>Darwin, Team 6328's robot.</small></p>
+<p><img src="media/northstar-detection.gif" width="480" alt="Northstar camera feed"><br>
+<small>Northstar camera feed on the robot.</small></p>
+<p><video src="media/auto-sim.mp4" width="480" controls muted loop playsinline></video><br>
+<small>Autonomous routine in simulation.</small></p>
+<p>
+<img src="media/frc-laptop.jpg" width="300" alt="Working on robot code at competition">
+<img src="media/frc-pit.jpg" width="300" alt="Debugging the robot in the pit">
+<img src="media/frc-field.jpg" width="300" alt="On the competition field"><br>
+<small>At competition: writing code, debugging in the pit, and on the field.</small></p>
+<p><i>Business &amp; Awards Lead</i> (2023 &ndash; 2025)</p>
+<ul>
+<li>Led STEM funding advocacy in the MassFIRST coalition: 40+ legislators' signatures on proposed bills</li>
+<li>Led sponsorship and grant-application training, raising $8,000+ for 3D printers and machining equipment</li>
+</ul>
+<p><img src="media/frc-team.jpg" width="480" alt="With Team 6328 teammates"><br>
+<small>With Team 6328 teammates.</small></p>
+
+<h2>Honors and Awards</h2>
+<ul>
+<li><b>Team (FRC):</b> Autonomous Award (2024 World Championship); Innovation in Control (2023 World Championship, 2025 NE District); Impact Award (2022, 2023, 2026 NE District); Engineering Inspiration (2024, 2025)</li>
+<li><b>Individual:</b> FRC Leadership Award Semifinalist (2025); 2&times; Silver President's Volunteer Service Award (500+ hours)</li>
+<li><b>Music:</b> Head Drum Major, 120 members, 2&times; USBands 5A MA/RI Circuit Champions; lead alto sax, UNH Clark Terry Jazz Festival 2nd Place; pianist, Weill Recital Hall at Carnegie Hall</li>
+</ul>
+
+<h2>Teaching and Volunteer Experience</h2>
+<p><b>Littleton Robotics, FIRST Lego League</b>, Scrimmage Organizer &amp; Team Coach (2022 &ndash; 2025)</p>
+<ul>
+<li>Refined a Python scheduler and a JavaScript/SQLite/CherryPy web app and server for a 20+ team Massachusetts Qualifier</li>
+<li>Coached a rookie team of six elementary schoolers to the state championship in year two; 100% return rate</li>
+</ul>
+<p><b>ABRHS Computer Science Club</b>, Competitive Track Leader (2023 &ndash; 2026)</p>
+<ul>
+<li>Designed curriculum and taught competitive programming to 20+ members; ACSL Top 10 of 175 teams (2025)</li>
+</ul>
+
+<h2>Technical Skills</h2>
+<ul>
+<li><b>Machine Learning &amp; Computer Vision:</b> deep learning, image segmentation (Attention U-Net), object detection &amp; tracking, vision-language models (Gemma), OCR, optical flow, feature matching (ORB, RANSAC)</li>
+<li><b>ML Libraries &amp; Tools:</b> PyTorch, OpenCV, NumPy, Pandas, Jupyter, Ollama</li>
+<li><b>Languages &amp; Concepts:</b> Java, Python, C++, JavaScript, SQL; object-oriented programming (OOP), data structures</li>
+<li><b>Robotics &amp; Optimization:</b> model predictive control, trajectory optimization, state machines, MILP, WPILib</li>
+<li><b>Other Tools:</b> Git, SQLite, CherryPy, Microsoft 365</li>
+</ul>
+
+<hr>
+<p><small>Last updated November 2026.</small></p>
+
+</body>
+</html>
